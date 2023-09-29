@@ -1,0 +1,27 @@
+.series_acao {
+  width: 100%;
+  padding: 30px;
+  background-color: #444444;
+  border-radius: 10px;
+}
+
+.series_acao_wrapper {
+  gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.series_box {
+  width: 30%;
+}
+
+.series_box img {
+  transition: transform 0.3s;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.series_box:hover img {
+  transform: scale(1.1)
+}

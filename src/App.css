@@ -1,0 +1,38 @@
+/* App.css */
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.app-header {
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(0 0 0));
+  box-shadow: 0 0 4px 3px #2222228c;
+  background-color: #2222228c;
+  padding: 20px 0 15px;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header h1 b {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 32px;
+  color: #E50914;
+}
